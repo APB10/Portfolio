@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Header from '../components/Header'
+import LandingPage from '../components/LandingPage'
 import ParticleBackground from '../components/ParticlesBackground'
 
 export default function Home() {
@@ -9,7 +9,7 @@ export default function Home() {
         <title>APB Portfolio</title>
         <link rel="icon" href="favicon.ico" />
       </Head>
-      <Header />
+      <LandingPage />
       <ParticleBackground />
     </div>
   )
