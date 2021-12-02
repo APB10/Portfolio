@@ -1,6 +1,7 @@
-import Head from 'next/head'
-import LandingPage from '../components/LandingPage'
-import ParticleBackground from '../components/ParticlesBackground'
+import Head from "next/head";
+import InfoCard from "../components/InfoCard";
+import LandingPage from "../components/LandingPage";
+import ParticleBackground from "../components/ParticlesBackground";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       </Head>
       <LandingPage />
       <ParticleBackground />
+      <InfoCard />
     </div>
-  )
+  );
 }
