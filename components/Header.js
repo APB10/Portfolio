@@ -1,11 +1,17 @@
 import React from "react";
 import Image from "next/image";
+import { useRouter } from "next/dist/client/router";
 
 function Header() {
+  const router = useRouter();
+
   return (
-    <header className="sticky top-0 z-50 grid grid-cols-3 bg-transparent shadow-md p-5 md:px-10 border-b-2 border-white ">
+    <header className="sticky top-0 z-50 flex items-center justify-between bg-transparent p-5 md:px-10 border-b-2 border-white ">
       {/* Left - Logo */}
-      <div className="relative flex items-center h-12 cursor-pointer my-auto ">
+      <div
+        onClick={() => router.push("/")}
+        className="relative flex items-center h-12 w-12  cursor-pointer my-auto"
+      >
         <Image
           src="https://i.imgur.com/44zQ5fm.png"
           layout="fill"
@@ -16,7 +22,7 @@ function Header() {
 
       {/* Middle - Search */}
       <div>
-        <ul className="flex text-white justify-between md:text-2xl font-light ">
+        <ul className="flex text-white justify-center md:text-2xl font-light ">
           <li className="ml-6 mr-6">
             <a
               className=" hover:text-[#FD7F20] active:underline active:text-[#FD7F20]"
@@ -45,8 +51,14 @@ function Header() {
       </div>
 
       {/* Right - User Icons */}
-      <div className="flex items-center space-x-4 justify-end text-gray-500">
-        <h1>Right</h1>
+      <div className="relative items-center h-8 w-8 md:h-12 cursor-pointer my-auto ">
+        <Image
+          src="https://i.imgur.com/tMgGlnE.png"
+          layout="fill"
+          objectFit="contain"
+          objectPosition="right"
+          onClick={() => window.open("https://github.com/APB10")}
+        />
       </div>
     </header>
   );

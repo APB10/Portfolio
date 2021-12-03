@@ -1,12 +1,24 @@
-import React from 'react'
-import Header from './Header'
+import React from "react";
+import Header from "./Header";
 
 function InfoCard() {
-    return (
+  return (
+    <div>
+      <Header />
+      {/* Main container */}
+      <div className="flex flex-1  ">
+        {/* Left - profile container  */}
         <div>
-            <Header />
+          <p>Test1</p>
         </div>
-    )
+
+        {/* Right - content container  */}
+        <div>
+          <p>Test2</p>
+        </div>
+      </div>
+    </div>
+  );
 }
 
-export default InfoCard
+export default InfoCard;

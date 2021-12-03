@@ -6,7 +6,7 @@ function Header() {
     <div className="grid place-content-center h-screen position: relative">
       <h1 className=" text-3xl text-white text-center">
         Hello, I'm <span className="text-[#FD7F20]"> Ali P. Bouraki. </span>
-        <h1> I'm a Web Developer </h1>{" "}
+        <h1> I'm a Front-End Developer </h1>{" "}
       </h1>
       <button
         className="flex items-center justify-center text-[#FD7F20] bg-transparent border border-white py-4 shadow-md rounded-full font-bold my-4 
