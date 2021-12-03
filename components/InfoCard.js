@@ -6,7 +6,7 @@ function InfoCard() {
     <div>
       <Header />
       {/* Main container */}
-      <div className="flex flex-1  ">
+      <div className="flex   ">
         {/* Left - profile container  */}
         <div>
           <p>Test1</p>
