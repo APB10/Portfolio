@@ -36,7 +36,7 @@ function Header() {
               className=" hover:text-[#FD7F20] active:underline active:text-[#FD7F20]"
               href="#"
             >
-              ABOUT
+              Profile
             </a>
           </li>
           <li className="mr-6">
