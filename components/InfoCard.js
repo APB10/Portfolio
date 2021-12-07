@@ -45,7 +45,32 @@ function InfoCard() {
 
         {/* Right - content container  */}
         <div className=" w-full md:w-2/3 border border-[#FD7F20] backdrop-blur-sm rounded-lg py-2 sm:py-4">
-          <p>Test2</p>
+          <ul class="flex">
+            <li class="mr-3">
+              <a
+                class="inline-block border border-blue-500 rounded py-1 px-3 bg-blue-500 text-white"
+                href="#"
+              >
+                Active Pill
+              </a>
+            </li>
+            <li class="mr-3">
+              <a
+                class="inline-block border border-white rounded hover:border-gray-200 text-blue-500 hover:bg-gray-200 py-1 px-3"
+                href="#"
+              >
+                Pill
+              </a>
+            </li>
+            <li class="mr-3">
+              <a
+                class="inline-block py-1 px-3 text-gray-400 cursor-not-allowed"
+                href="#"
+              >
+                Disabled Pill
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
