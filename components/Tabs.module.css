@@ -1,0 +1,11 @@
+.tabs {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  border-bottom: 2px solid white;
+}
+
+.tabs > li {
+  margin: 0 1em;
+}
