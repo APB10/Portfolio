@@ -3,9 +3,21 @@
   padding: 0;
   margin: 0;
   display: flex;
-  border-bottom: 2px solid white;
+  justify-content: space-evenly;
 }
 
 .tabs > li {
   margin: 0 1em;
+  padding: 0.5em 1em;
+}
+
+.current {
+  background: transparent;
+  color: #fd7f20;
+  font-weight: bold;
+  border: 2px solid;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  position: relative;
 }

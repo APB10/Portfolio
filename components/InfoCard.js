@@ -7,15 +7,15 @@ function InfoCard() {
     <div>
       <Header />
       {/* Main container */}
-      <div className="flex text-white m-2 md:m-32 md:space-x-20 space-y-2 sm:space-y-0 flex-col sm:flex-row">
+      <div className="flex text-white m-2 md:m-32 md:space-x-20 space-y-6 sm:space-y-0 flex-col sm:flex-row">
         {/* Left - profile container  */}
-        <div className=" text-center sm:w-1/3  space-y-6 border border-[#FD7F20] rounded-lg py-2 sm:py-4 backdrop-blur-sm">
+        <div className=" text-center sm:w-1/3  space-y-6 border-2 border-[#FD7F20] rounded-lg py-2 sm:py-4 backdrop-blur-sm">
           <div>
             <h1 className="md:text-2xl">Ali P. Bouraki</h1>
             <p>Front-End Developer</p>
           </div>
           <button
-            className="items-center border border-[#FD7F20] md:p-2 rounded-xl  hover:text-[#FD7F20] cursor-pointer 
+            className="items-center border border-[#FD7F20] md:p-2 p-2 rounded-xl  hover:text-[#FD7F20] cursor-pointer 
             transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
             onClick={() =>
               window.open(
@@ -45,7 +45,7 @@ function InfoCard() {
         </div>
 
         {/* Right - content container  */}
-        <div className=" w-full md:w-2/3 border border-[#FD7F20] backdrop-blur-sm rounded-lg py-2 sm:py-4">
+        <div className=" w-full md:w-2/3 backdrop-blur-sm rounded-lg border-2 border-[#FD7F20]">
           <Tabs />
         </div>
       </div>

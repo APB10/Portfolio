@@ -5,11 +5,11 @@ function Tabs() {
   return (
     <div>
       <ul className={styles.tabs}>
-        <li>Tab1</li>
-        <li>Tab2</li>
-        <li>Tab3</li>
+        <li className={styles.current}>Employment</li>
+        <li>Academic</li>
+        <li>Skills</li>
       </ul>
-      <div>
+      <div className="mx-2 mt-4">
         <p>
           s its finest peacekeeper, Caitlyn is also Piltover’s best shot at
           ridding the city of its elusive criminal elements. She is often paired
