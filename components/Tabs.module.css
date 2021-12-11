@@ -1,23 +1,31 @@
-.tabs {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.blocTabs {
   display: flex;
   justify-content: space-evenly;
 }
 
-.tabs > li {
-  margin: 0 1em;
+.tabs {
+  color: white;
   padding: 0.5em 1em;
+  margin: 0 1em;
+  width: 100%;
 }
 
-.current {
-  background: transparent;
+.activeTabs {
   color: #fd7f20;
-  font-weight: bold;
-  border: 2px solid;
-  border-top: 0px;
-  border-left: 0px;
-  border-right: 0px;
-  position: relative;
+  padding: 0.5em 1em;
+  margin: 0 1em;
+  width: 100%;
+}
+
+.tabs:hover {
+  cursor: pointer;
+}
+
+.content {
+  display: none;
+}
+
+.activeContent {
+  width: 100%;
+  height: 100%;
 }
