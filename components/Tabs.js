@@ -13,24 +13,42 @@ function Tabs() {
     <div>
       <div className={styles.blocTabs}>
         <button
-          className={toggleState === 1 ? styles.activeTabs : styles.tabs}
+          className={
+            toggleState === 1
+              ? [styles.activeTabs, styles.tabs].join(" ")
+              : styles.tabs
+          }
           onClick={() => toggleTab(1)}
         >
           Tab 1
         </button>
         <button
-          className={toggleState === 2 ? styles.activeTabs : styles.tabs}
+          className={
+            toggleState === 2
+              ? [styles.activeTabs, styles.tabs].join(" ")
+              : styles.tabs
+          }
           onClick={() => toggleTab(2)}
         >
           Tab 2
         </button>
         <button
-          className={toggleState === 3 ? styles.activeTabs : styles.tabs}
+          className={
+            toggleState === 3
+              ? [styles.activeTabs, styles.tabs].join(" ")
+              : styles.tabs
+          }
           onClick={() => toggleTab(3)}
         >
           Tab 3
         </button>
       </div>
+      {/* slider here  */}
+      <div
+        className=" h-[2px] w-1/3 bg-[#fd7f20] transition duration-500 ease-in-out"
+        style={{ transform: `translateX(${toggleState * 100 - 100}%)` }}
+      ></div>
+
       <div className="mx-2">
         <div
           className={toggleState === 1 ? styles.activeContent : styles.content}

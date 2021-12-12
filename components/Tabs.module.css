@@ -4,7 +4,6 @@
 }
 
 .tabs {
-  color: white;
   padding: 0.5em 1em;
   margin: 0 1em;
   width: 100%;
@@ -12,9 +11,6 @@
 
 .activeTabs {
   color: #fd7f20;
-  padding: 0.5em 1em;
-  margin: 0 1em;
-  width: 100%;
 }
 
 .tabs:hover {
