@@ -9,6 +9,10 @@ export default function Home() {
       <Head>
         <title>APB Portfolio</title>
         <link rel="icon" href="favicon.ico" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;500&display=swap"
+          rel="stylesheet"
+        ></link>
       </Head>
       <LandingPage />
       <ParticleBackground />

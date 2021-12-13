@@ -22,7 +22,7 @@ function Header() {
 
       {/* Middle - Search */}
       <div>
-        <ul className="flex text-white justify-center md:text-2xl font-light ">
+        <ul className="flex text-white justify-center md:text-2xl ">
           <li className="ml-6 mr-6">
             <a
               className=" hover:text-[#FD7F20] active:underline active:text-[#FD7F20]"

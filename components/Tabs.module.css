@@ -1,12 +1,9 @@
-.blocTabs {
-  display: flex;
-  justify-content: space-evenly;
-}
-
 .tabs {
   padding: 0.5em 1em;
   margin: 0 1em;
-  width: 100%;
+  width: fit-content;
+  transition: 300ms;
+  transition-timing-function: ease-in-out;
 }
 
 .activeTabs {
@@ -15,6 +12,9 @@
 
 .tabs:hover {
   cursor: pointer;
+  transform: scale(1.2);
+  transition: 500ms;
+  transition-timing-function: ease-in-out;
 }
 
 .content {
