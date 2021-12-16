@@ -6,7 +6,7 @@ function Header() {
   const router = useRouter();
 
   return (
-    <header className="sticky top-0 z-50 flex items-center justify-between bg-transparent p-5 md:px-10 border-b-2 border-white ">
+    <header className="top-0 z-50 flex items-center justify-between bg-transparent p-5 md:px-10 border-b-2 border-white ">
       {/* Left - Logo */}
       <div
         onClick={() => router.push("/")}

@@ -2,6 +2,8 @@ import Head from "next/head";
 import InfoCard from "../components/InfoCard";
 import LandingPage from "../components/LandingPage";
 import ParticleBackground from "../components/ParticlesBackground";
+import Projects from "../components/Projects";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -17,6 +19,8 @@ export default function Home() {
       <LandingPage />
       <ParticleBackground />
       <InfoCard />
+      <Projects />
+      <Footer />
     </div>
   );
 }
