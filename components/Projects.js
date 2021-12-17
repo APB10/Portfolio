@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function Projects() {
   return (
-    <div>
+    <div id="projectsArea">
       <h1 className="text-white text-center p-12 text-2xl">Projects</h1>
       <p className="text-white text-center text-sm mb-12">
         Some projects I've been working on recently
@@ -107,7 +107,7 @@ function Projects() {
                 TailwindCSS
               </div>
               <div className="border-2 border-[#fd7f20] p-1 rounded-md">
-                React
+                TSparticles
               </div>
             </div>
           </div>
