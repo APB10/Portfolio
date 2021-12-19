@@ -41,7 +41,7 @@ function Header() {
 
       {/* Middle - Search */}
       <div>
-        <ul className="flex text-white justify-center md:text-2xl ">
+        <ul className="flex text-white justify-center md:text-2xl sm:mr-[-8px] ">
           <li className="ml-6 mr-6">
             <a
               onClick={scrollToHome}
@@ -70,14 +70,29 @@ function Header() {
       </div>
 
       {/* Right - User Icons */}
-      <div className="relative items-center h-8 w-8 md:h-12 cursor-pointer my-auto ">
-        <Image
-          src="https://i.imgur.com/tMgGlnE.png"
-          layout="fill"
-          objectFit="contain"
-          objectPosition="right"
-          onClick={() => window.open("https://github.com/APB10")}
-        />
+      <div className="flex space-x-4">
+        <div className=" relative items-center h-6 w-6 sm:h-12 sm:w-8 cursor-pointer my-auto ">
+          <Image
+            src="https://i.imgur.com/tMgGlnE.png"
+            layout="fill"
+            objectFit="contain"
+            objectPosition="right"
+            onClick={() => window.open("https://github.com/APB10")}
+          />
+        </div>
+        <div className="relative items-center h-6 w-6 sm:h-12 sm:w-8 cursor-pointer my-auto">
+          <Image
+            src="https://i.imgur.com/CNOZbaP.png"
+            layout="fill"
+            objectFit="contain"
+            objectPosition="right"
+            onClick={() =>
+              window.open(
+                "https://www.linkedin.com/in/ali-p-bouraki-009027228/"
+              )
+            }
+          />
+        </div>
       </div>
     </header>
   );
