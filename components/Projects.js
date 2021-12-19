@@ -87,14 +87,14 @@ function Projects() {
               projects
             </p>
             <div className="flex justify-end ">
-              <button
+              {/* <button
                 className="mt-[25%] text-right hover:underline cursor-pointer hover:text-[#fd7f20]"
                 onClick={() =>
                   window.open("https://air-bnb-clone-ebon.vercel.app/")
                 }
               >
                 View Demo &gt;
-              </button>
+              </button> */}
             </div>
             <div className="flex justify-end text-xs text-[#fd7f20] space-x-4 sm:bottom-4 sm:right-4 sm:fixed p-4 sm:p-0 ">
               <div className="border-2 border-[#fd7f20] p-1 rounded-md">
