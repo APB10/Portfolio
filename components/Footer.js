@@ -13,7 +13,7 @@ function Footer() {
       </h1>
       <p className=" text-white text-center m-16">
         Feel free to drop me an e-mail -
-        <span className="text-[#fd7f20] cursor-pointer">
+        <span className="text-[#fd7f20] cursor-pointer hover:text-white hover:underline">
           {" "}
           <Link href="mailto:ali_panahi10@hotmail.com">
             <a>ali_panahi10@hotmail.com </a>
