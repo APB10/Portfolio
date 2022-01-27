@@ -19,7 +19,7 @@ function InfoCard() {
             transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
             onClick={() =>
               window.open(
-                "https://drive.google.com/file/d/1kkSNHcJmj_f4X8QYNkFRTF66kSk6DQap/view?usp=sharing"
+                "https://drive.google.com/file/d/1QSRqWVF9bu5dioO2-aD7CMAhrgJOZ3Wl/view?usp=sharing"
               )
             }
           >
