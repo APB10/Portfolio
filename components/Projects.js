@@ -113,11 +113,11 @@ function Projects() {
           </div>
         </div>
         {/* Box 3  */}
-        {/* <div className="border-2 rounded-2xl  sm:w-1/3 backdrop-blur-sm pt-2">
+        <div className="border-2 rounded-2xl  sm:w-1/3 backdrop-blur-sm pt-2">
           <div className="mx-4 text-white">
             <div className="flex justify-between items-center">
               <div>
-                <h3>Airbnb Clone</h3>
+                <h3>Path Finder</h3>
               </div>
               <div
                 className="relative h-8 w-8 md:h-12 cursor-pointer my-auto 
@@ -128,19 +128,21 @@ function Projects() {
                   layout="fill"
                   objectFit="contain"
                   objectPosition="right"
-                  onClick={() => window.open("https://github.com/APB10")}
+                  onClick={() =>
+                    window.open("https://github.com/APB10/PathFinder")
+                  }
                 />
               </div>
             </div>
             <p className="mt-8">
-              A project cloning the home and search page of the popular property
-              renstal site Airbnb.
+              A Visualizer using Dijkstra algorithm for finding the shortest
+              path in a grid.
             </p>
             <div className="flex justify-end">
               <button
                 className="mt-[25%] text-right hover:underline cursor-pointer hover:text-[#fd7f20]"
                 onClick={() =>
-                  window.open("https://air-bnb-clone-ebon.vercel.app/")
+                  window.open("https://path-finder-qj30dm16t-apb10.vercel.app/")
                 }
               >
                 View Demo &gt;
@@ -148,20 +150,20 @@ function Projects() {
             </div>
             <div className="flex justify-end text-xs text-[#fd7f20] space-x-4 sm:bottom-4 sm:right-4 sm:fixed p-4 sm:p-0">
               <div className="border-2 border-[#fd7f20] p-1 rounded-md">
-                Next.js
+                JavaScript
               </div>
               <div className="border-2 border-[#fd7f20] p-1 rounded-md">
-                GeoLib
+                Html
               </div>
               <div className="border-2 border-[#fd7f20] p-1 rounded-md">
-                TailwindCSS
+                CSS
               </div>
             </div>
           </div>
-        </div> */}
+        </div>
       </div>
       {/* change width to 80% upon 3 projects  */}
-      <div className="flex justify-end  w-[55%] m-auto mt-4">
+      <div className="flex justify-end  w-[80%] m-auto mt-4">
         <button
           className="text-white  cursor-pointer hover:text-[#fd7f20]"
           onClick={() => window.open("https://github.com/APB10")}
